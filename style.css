@@ -71,3 +71,16 @@ body{
 .reset-button:active{
     transform: scale(1);
 }
+
+@media (max-width: 450px) {
+    /* .buttons button:hover , .buttons button:active , .reset-button:hover , .reset-button:active {
+        transform: none;
+    } */
+
+    .buttons button:focus, .reset-button:focus {
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    
+}
